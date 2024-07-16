@@ -85,18 +85,19 @@ header .header-content h2 {
   color: rgb(166, 114, 69);
 }
 header .header-content h1 {
-  font-size: 3.2rem;
+  font-size: 3.1rem;
   font-weight: 700;
   margin-top: -43px;
   letter-spacing: 10px;
   font-family: Poppins;
 }
 header .header-content h6 {
-  font-size: 1.2rem;
-  letter-spacing: 4px;
-  font-family: Alura;
-  margin: 20px;
+  font-size: 27px;
+  letter-spacing: 6px;
+  margin: 32px 0;
+  font-weight: 100;
 }
 header .header-content img {
-  font-size: 2.3rem;
+  height: 27px;
+  margin: 32px 0;
 }/*# sourceMappingURL=style.css.map */
