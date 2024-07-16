@@ -1,0 +1,15 @@
+.section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .discover{
+        .border{
+            border: 1px solid dashed;
+        }
+        background: $white;
+        .chef-img{
+            border-radius: 50%;
+            width: 100px;
+        }
+    }
+}
