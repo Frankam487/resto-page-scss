@@ -1,0 +1,36 @@
+.section2 {
+    .discover {
+        padding: 30px;
+
+        h2 {
+            font-family: Allura;
+            color: $color1;
+            font-size: 2rem;
+            font-weight: 50;
+
+        }
+
+        img {
+            padding: 25px 0;
+        }
+
+        ul {
+            @include childCenter;
+            color: $white;
+
+            li {
+                list-style: none;
+                margin: 0 32px;
+                border-bottom: 1px solid $white;
+
+            }
+        }
+    }
+
+    .section2-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background: $white;
+
+    }
+}

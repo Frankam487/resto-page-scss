@@ -109,11 +109,73 @@ header .header-content img {
 }
 .section1 .discover {
   background: #eee;
+  display: block;
 }
 .section1 .discover .border {
-  border: 1px solid dashed;
+  padding: 20px 0;
+  margin: 10px;
+  border: 1px dashed rgb(166, 114, 69);
+}
+.section1 .discover .border p {
+  padding: 0 7px;
+}
+.section1 .discover .border h6 {
+  text-transform: uppercase;
+  color: rgb(182, 182, 182);
+}
+.section1 .discover .border .fourchette {
+  margin: 15px 0;
+}
+.section1 .discover .border h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: -9px;
+}
+.section1 .discover .border h1 {
+  font-family: Allura;
+  color: rgb(166, 114, 69);
+  font-size: 1.8rem;
+  font-weight: 100;
 }
 .section1 .discover .chef-img {
   border-radius: 50%;
   width: 100px;
+  width: 12%;
+  margin: 12px 0;
+}
+.section1 .discover .chef-img img {
+  padding: 15px 0;
+}
+.section1 .img {
+  background: url(../../vraiProjet/img/store-01.jpg) center/cover;
+}
+
+.section2 .discover {
+  padding: 30px;
+}
+.section2 .discover h2 {
+  font-family: Allura;
+  color: rgb(166, 114, 69);
+  font-size: 2rem;
+  font-weight: 50;
+}
+.section2 .discover img {
+  padding: 25px 0;
+}
+.section2 .discover ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+}
+.section2 .discover ul li {
+  list-style: none;
+  margin: 0 32px;
+  border-bottom: 1px solid #eee;
+}
+.section2 .section2-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: #eee;
 }/*# sourceMappingURL=style.css.map */

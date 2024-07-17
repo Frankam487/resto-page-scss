@@ -2,14 +2,51 @@
     display: grid;
     grid-template-columns: 50% 50%;
 
-    .discover{
-        .border{
-            border: 1px solid dashed;
-        }
+    .discover {
         background: $white;
-        .chef-img{
+        display: block;
+        
+        .border {
+            padding: 20px 0;
+            margin: 10px;
+            border: 1px dashed $color1;
+            p{
+                padding: 0 7px;
+            }
+            h6{
+                text-transform: uppercase;
+                color: $grey;
+            }
+            .fourchette{
+                margin: 15px 0;
+            }
+            h2 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: .9rem;
+                margin-top: -9px;
+            }
+
+            h1 {
+                font-family: Allura;
+                color: $color1;
+                font-size: 1.8rem;
+                font-weight: 100;
+            }
+        }
+
+        .chef-img {
             border-radius: 50%;
             width: 100px;
+            width: 12%;
+            margin: 12px 0;
+            img {
+                padding: 15px 0;
+            }
         }
+    }
+
+    .img {
+        background: url(../../vraiProjet/img/store-01.jpg) center/cover;
     }
 }
