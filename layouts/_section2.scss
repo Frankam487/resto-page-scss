@@ -1,7 +1,6 @@
 .section2 {
-    height: 50vh;
-    background: red;
-
+    // height: 57vh;
+    background: $black;
     .discover {
         padding: 30px;
 
@@ -10,7 +9,6 @@
             color: $color1;
             font-size: 2rem;
             font-weight: 50;
-
         }
 
         img {
@@ -36,8 +34,6 @@
         overflow: auto;
         display: grid;
         grid-template-columns: 50% 50%;
-        // background: url(../img/avatar-01.jpg) center/cover;
-        background: cyan;
 
         .part1-container,
         .part2-container,
@@ -58,7 +54,7 @@
                 padding: 0 12px;
                 border-bottom: 1px solid $grey;
                 // background-color: red;
-                padding: 20px 0 20px 8px;
+                padding: 35px 0 35px 8px;
 
                 h2 {
                     color: $color1;
@@ -81,10 +77,6 @@
                     height: 60px;
                 }
             }
-
-
-
-
 
 
             h3 {

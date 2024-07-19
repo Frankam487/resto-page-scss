@@ -1,0 +1,77 @@
+.section3 {
+    background: $black;
+
+    .section3-container {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin: 20px 50px;
+
+        .date-container {
+            background: $white;
+            display: grid;
+            text-align: center;
+            padding: 22px;
+
+            form {
+                display: grid;
+                grid-template-areas:
+                    "select date time"
+                    "name phone email"
+                    "btn btn btn"
+                ;
+                #name {
+                    grid-area: name;
+                }
+    
+                #date {
+                    grid-area: date;
+                }
+    
+                #hour {
+                    grid-area: hour;
+                }
+    
+                #number {
+                    grid-area: number;
+                }
+    
+                #email {
+                    grid-area: email;
+                }
+    
+                #select {
+                    grid-area: select;
+                }
+    
+                .btn {
+                    grid-area: btn;
+                }
+            }
+
+           
+        }
+
+        .open-container {
+            background: black;
+            padding: 20px;
+
+            .box1 {
+                background-color: red;
+
+                h1 {
+                    font-family: Allura;
+                    color: $color1;
+                    font-size: 3rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    color: #fff;
+                    text-transform: uppercase;
+                    margin-top: -20px;
+                }
+            }
+        }
+    }
+}

@@ -23,7 +23,7 @@ li {
 body {
   text-align: center;
   font-family: Roboto, serif;
-  background: #21201e;
+  background: url(./img/bg-menu-01.jpg);
 }
 
 header {
@@ -87,7 +87,7 @@ header .header-content h2 {
 header .header-content h1 {
   font-size: 3.1rem;
   font-weight: 700;
-  margin-top: -43px;
+  margin-top: -30px;
   letter-spacing: 10px;
   font-family: Poppins;
   text-transform: uppercase;
@@ -152,8 +152,7 @@ header .header-content img {
 }
 
 .section2 {
-  height: 50vh;
-  background: red;
+  background: #21201e;
 }
 .section2 .discover {
   padding: 30px;
@@ -183,7 +182,6 @@ header .header-content img {
   overflow: auto;
   display: grid;
   grid-template-columns: 50% 50%;
-  background: cyan;
   background: #eee;
   display: grid;
   margin: 0 25%;
@@ -218,7 +216,7 @@ header .header-content img {
   align-items: center;
   padding: 0 12px;
   border-bottom: 1px solid rgb(182, 182, 182);
-  padding: 20px 0 20px 8px;
+  padding: 35px 0 35px 8px;
 }
 .section2 .section2-container .part1-container .content1 h2,
 .section2 .section2-container .part1-container .content2 h2,
@@ -297,4 +295,63 @@ header .header-content img {
 .section2 .section2-container .part3-container h3 span,
 .section2 .section2-container .part4-container h3 span {
   text-transform: uppercase;
+}
+
+.section3 {
+  background: #21201e;
+}
+.section3 .section3-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin: 20px 50px;
+}
+.section3 .section3-container .date-container {
+  background: #eee;
+  display: grid;
+  text-align: center;
+  padding: 22px;
+}
+.section3 .section3-container .date-container form {
+  display: grid;
+  grid-template-areas: "select date time" "name phone email" "btn btn btn";
+}
+.section3 .section3-container .date-container form #name {
+  grid-area: name;
+}
+.section3 .section3-container .date-container form #date {
+  grid-area: date;
+}
+.section3 .section3-container .date-container form #hour {
+  grid-area: hour;
+}
+.section3 .section3-container .date-container form #number {
+  grid-area: number;
+}
+.section3 .section3-container .date-container form #email {
+  grid-area: email;
+}
+.section3 .section3-container .date-container form #select {
+  grid-area: select;
+}
+.section3 .section3-container .date-container form .btn {
+  grid-area: btn;
+}
+.section3 .section3-container .open-container {
+  background: black;
+  padding: 20px;
+}
+.section3 .section3-container .open-container .box1 {
+  background-color: red;
+}
+.section3 .section3-container .open-container .box1 h1 {
+  font-family: Allura;
+  color: rgb(166, 114, 69);
+  font-size: 3rem;
+}
+.section3 .section3-container .open-container .box1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -20px;
 }/*# sourceMappingURL=style.css.map */
