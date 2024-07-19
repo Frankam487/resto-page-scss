@@ -1,7 +1,6 @@
 .section2 {
-    height: 400px;
-    background: $black;
-    z-index: 2;
+    height: 50vh;
+    background: red;
 
     .discover {
         padding: 30px;
@@ -26,6 +25,7 @@
                 list-style: none;
                 margin: 0 32px;
                 border-bottom: 1px solid $white;
+                padding: 7px 0px;
 
             }
         }
@@ -33,32 +33,58 @@
     }
 
     .section2-container {
-        img {
-            width: 20%;
-            border-radius: 50%;
-        }
+        overflow: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        // background: url(../img/avatar-01.jpg) center/cover;
+        background: cyan;
 
-        .part1-container {
+        .part1-container,
+        .part2-container,
+        .part3-container,
+        .part4-container {
+            margin: 0 10px;
 
             .content1,
             .content2,
-            .content3 {
+            .content3,
+            .content4 {
+
                 display: grid;
                 grid-template-columns: 20% 60% 20%;
+                margin: 10px;
+                padding: 5px;
                 align-items: center;
                 padding: 0 12px;
-
+                border-bottom: 1px solid $grey;
+                // background-color: red;
+                padding: 20px 0 20px 8px;
 
                 h2 {
-                    background-color: rgb(243, 9, 9);
+                    color: $color1;
+                    font-size: 1rem;
+                    text-align: right;
+                }
+
+                h5 {
+                    text-align-last: left;
+                    margin: 6px 0px 7px 7px;
+                    color: rgb(48, 47, 47);
+                }
+
+                img {
+                    border-radius: 50%;
+                    width: 100%;
+                    display: block;
+                    margin: auto auto;
                     text-align: left;
+                    height: 60px;
                 }
             }
 
 
 
-            display: grid;
-            grid-template-columns: 50% 50%;
+
 
 
             h3 {

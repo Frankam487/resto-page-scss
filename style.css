@@ -152,9 +152,8 @@ header .header-content img {
 }
 
 .section2 {
-  height: 400px;
-  background: #21201e;
-  z-index: 2;
+  height: 50vh;
+  background: red;
 }
 .section2 .discover {
   padding: 30px;
@@ -178,40 +177,124 @@ header .header-content img {
   list-style: none;
   margin: 0 32px;
   border-bottom: 1px solid #eee;
+  padding: 7px 0px;
 }
 .section2 .section2-container {
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: cyan;
   background: #eee;
   display: grid;
   margin: 0 25%;
   border-top: 3px solid rgb(166, 114, 69);
 }
-.section2 .section2-container img {
-  width: 20%;
-  border-radius: 50%;
-}
-.section2 .section2-container .part1-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
+.section2 .section2-container .part1-container,
+.section2 .section2-container .part2-container,
+.section2 .section2-container .part3-container,
+.section2 .section2-container .part4-container {
+  margin: 0 10px;
 }
 .section2 .section2-container .part1-container .content1,
 .section2 .section2-container .part1-container .content2,
-.section2 .section2-container .part1-container .content3 {
+.section2 .section2-container .part1-container .content3,
+.section2 .section2-container .part1-container .content4,
+.section2 .section2-container .part2-container .content1,
+.section2 .section2-container .part2-container .content2,
+.section2 .section2-container .part2-container .content3,
+.section2 .section2-container .part2-container .content4,
+.section2 .section2-container .part3-container .content1,
+.section2 .section2-container .part3-container .content2,
+.section2 .section2-container .part3-container .content3,
+.section2 .section2-container .part3-container .content4,
+.section2 .section2-container .part4-container .content1,
+.section2 .section2-container .part4-container .content2,
+.section2 .section2-container .part4-container .content3,
+.section2 .section2-container .part4-container .content4 {
   display: grid;
   grid-template-columns: 20% 60% 20%;
+  margin: 10px;
+  padding: 5px;
   align-items: center;
   padding: 0 12px;
+  border-bottom: 1px solid rgb(182, 182, 182);
+  padding: 20px 0 20px 8px;
 }
 .section2 .section2-container .part1-container .content1 h2,
 .section2 .section2-container .part1-container .content2 h2,
-.section2 .section2-container .part1-container .content3 h2 {
-  background-color: rgb(243, 9, 9);
-  text-align: left;
+.section2 .section2-container .part1-container .content3 h2,
+.section2 .section2-container .part1-container .content4 h2,
+.section2 .section2-container .part2-container .content1 h2,
+.section2 .section2-container .part2-container .content2 h2,
+.section2 .section2-container .part2-container .content3 h2,
+.section2 .section2-container .part2-container .content4 h2,
+.section2 .section2-container .part3-container .content1 h2,
+.section2 .section2-container .part3-container .content2 h2,
+.section2 .section2-container .part3-container .content3 h2,
+.section2 .section2-container .part3-container .content4 h2,
+.section2 .section2-container .part4-container .content1 h2,
+.section2 .section2-container .part4-container .content2 h2,
+.section2 .section2-container .part4-container .content3 h2,
+.section2 .section2-container .part4-container .content4 h2 {
+  color: rgb(166, 114, 69);
+  font-size: 1rem;
+  text-align: right;
 }
-.section2 .section2-container .part1-container h3 {
+.section2 .section2-container .part1-container .content1 h5,
+.section2 .section2-container .part1-container .content2 h5,
+.section2 .section2-container .part1-container .content3 h5,
+.section2 .section2-container .part1-container .content4 h5,
+.section2 .section2-container .part2-container .content1 h5,
+.section2 .section2-container .part2-container .content2 h5,
+.section2 .section2-container .part2-container .content3 h5,
+.section2 .section2-container .part2-container .content4 h5,
+.section2 .section2-container .part3-container .content1 h5,
+.section2 .section2-container .part3-container .content2 h5,
+.section2 .section2-container .part3-container .content3 h5,
+.section2 .section2-container .part3-container .content4 h5,
+.section2 .section2-container .part4-container .content1 h5,
+.section2 .section2-container .part4-container .content2 h5,
+.section2 .section2-container .part4-container .content3 h5,
+.section2 .section2-container .part4-container .content4 h5 {
+  -moz-text-align-last: left;
+       text-align-last: left;
+  margin: 6px 0px 7px 7px;
+  color: rgb(48, 47, 47);
+}
+.section2 .section2-container .part1-container .content1 img,
+.section2 .section2-container .part1-container .content2 img,
+.section2 .section2-container .part1-container .content3 img,
+.section2 .section2-container .part1-container .content4 img,
+.section2 .section2-container .part2-container .content1 img,
+.section2 .section2-container .part2-container .content2 img,
+.section2 .section2-container .part2-container .content3 img,
+.section2 .section2-container .part2-container .content4 img,
+.section2 .section2-container .part3-container .content1 img,
+.section2 .section2-container .part3-container .content2 img,
+.section2 .section2-container .part3-container .content3 img,
+.section2 .section2-container .part3-container .content4 img,
+.section2 .section2-container .part4-container .content1 img,
+.section2 .section2-container .part4-container .content2 img,
+.section2 .section2-container .part4-container .content3 img,
+.section2 .section2-container .part4-container .content4 img {
+  border-radius: 50%;
+  width: 100%;
+  display: block;
+  margin: auto auto;
+  text-align: left;
+  height: 60px;
+}
+.section2 .section2-container .part1-container h3,
+.section2 .section2-container .part2-container h3,
+.section2 .section2-container .part3-container h3,
+.section2 .section2-container .part4-container h3 {
   text-align: left;
   margin: 0 13px;
   font-size: 15px;
 }
-.section2 .section2-container .part1-container h3 span {
+.section2 .section2-container .part1-container h3 span,
+.section2 .section2-container .part2-container h3 span,
+.section2 .section2-container .part3-container h3 span,
+.section2 .section2-container .part4-container h3 span {
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
