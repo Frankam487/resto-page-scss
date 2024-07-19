@@ -1,4 +1,8 @@
 .section2 {
+    height: 400px;
+    background: $black;
+    z-index: 2;
+
     .discover {
         padding: 30px;
 
@@ -25,12 +29,59 @@
 
             }
         }
+
     }
 
-    .section2-content {
-        display: grid;
-        grid-template-columns: 50% 50%;
+    .section2-container {
+        img {
+            width: 20%;
+            border-radius: 50%;
+        }
+
+        .part1-container {
+
+            .content1,
+            .content2,
+            .content3 {
+                display: grid;
+                grid-template-columns: 20% 60% 20%;
+                align-items: center;
+                padding: 0 12px;
+
+
+                h2 {
+                    background-color: rgb(243, 9, 9);
+                    text-align: left;
+                }
+            }
+
+
+
+            display: grid;
+            grid-template-columns: 50% 50%;
+
+
+            h3 {
+                text-align: left;
+                margin: 0 13px;
+                font-size: 15px;
+
+                span {
+                    text-transform: uppercase;
+
+                }
+            }
+
+
+        }
+
+
         background: $white;
+        display: grid;
+        margin: 0 25%;
+        border-top: 3px solid $color1;
+
+
 
     }
 }

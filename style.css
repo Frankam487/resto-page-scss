@@ -27,7 +27,7 @@ body {
 }
 
 header {
-  background: url(../../vraiProjet/img/bg-slider-06.jpg) center/cover;
+  background: url(./img/bg-slider-06.jpg) center/cover;
   padding: 0 50px;
   color: #eee;
 }
@@ -148,9 +148,14 @@ header .header-content img {
   padding: 15px 0;
 }
 .section1 .img {
-  background: url(../../vraiProjet/img/store-01.jpg) center/cover;
+  background: url(./img/store-01.jpg) center/cover;
 }
 
+.section2 {
+  height: 400px;
+  background: #21201e;
+  z-index: 2;
+}
 .section2 .discover {
   padding: 30px;
 }
@@ -174,8 +179,39 @@ header .header-content img {
   margin: 0 32px;
   border-bottom: 1px solid #eee;
 }
-.section2 .section2-content {
+.section2 .section2-container {
+  background: #eee;
+  display: grid;
+  margin: 0 25%;
+  border-top: 3px solid rgb(166, 114, 69);
+}
+.section2 .section2-container img {
+  width: 20%;
+  border-radius: 50%;
+}
+.section2 .section2-container .part1-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  background: #eee;
+}
+.section2 .section2-container .part1-container .content1,
+.section2 .section2-container .part1-container .content2,
+.section2 .section2-container .part1-container .content3 {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+  padding: 0 12px;
+}
+.section2 .section2-container .part1-container .content1 h2,
+.section2 .section2-container .part1-container .content2 h2,
+.section2 .section2-container .part1-container .content3 h2 {
+  background-color: rgb(243, 9, 9);
+  text-align: left;
+}
+.section2 .section2-container .part1-container h3 {
+  text-align: left;
+  margin: 0 13px;
+  font-size: 15px;
+}
+.section2 .section2-container .part1-container h3 span {
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
