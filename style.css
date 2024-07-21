@@ -323,8 +323,8 @@ header .header-content img {
   width: 50%;
 }
 .section3 .section3-container .date-container form .btn {
+  margin: 0 auto;
   width: 100%;
-  background-color: red;
   align-items: center;
   text-align: center;
   display: flex;
@@ -341,15 +341,50 @@ header .header-content img {
   color: white;
   padding: 20px;
 }
+.section3 .section3-container .open-container .border {
+  border: 1px dashed rgb(182, 182, 182);
+}
+.section3 .section3-container .open-container h2 {
+  text-transform: uppercase;
+  color: rgb(166, 114, 69);
+  margin-top: -12px;
+}
+.section3 .section3-container .open-container .box1,
+.section3 .section3-container .open-container .box2,
+.section3 .section3-container .open-container .box3 {
+  margin-top: 20px;
+}
+.section3 .section3-container .open-container .box1 {
+  margin: 30px 0;
+}
 .section3 .section3-container .open-container .box1 h1 {
   font-family: Allura;
   color: rgb(166, 114, 69);
   font-size: 3rem;
 }
 .section3 .section3-container .open-container .box1 h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #ffffff;
+  color: #eee;
+  font-size: 2.2rem;
+}
+.section3 .section3-container .open-container .box2 {
+  margin: 40px 0;
+}
+.section3 .section3-container .open-container .box2 h2 {
   text-transform: uppercase;
-  margin-top: -20px;
+  color: rgb(166, 114, 69);
+  margin-top: -12px;
+}
+.section3 .section3-container .open-container .box2 h3 {
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+.section3 .section3-container .open-container .box3 {
+  margin: 40px 0;
+}
+.section3 .section3-container .open-container .box3 h3 {
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+.section3 .section3-container .open-container .box4 {
+  margin: 20px 0 50px 0;
 }/*# sourceMappingURL=style.css.map */
