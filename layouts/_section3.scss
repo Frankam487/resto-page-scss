@@ -9,7 +9,6 @@
 
         .date-container {
             display: grid;
-            text-align: center;
             padding: 22px;
 
             form {
@@ -28,6 +27,9 @@
                     width: 50%;
                     // margin: 0 auto;
                 }
+
+
+                img {}
 
                 .btn {
                     margin: 0 auto;
@@ -51,9 +53,10 @@
         }
 
         .open-container {
-            .border{
+            .border {
                 border: 1px dashed $grey;
             }
+
             background: #000;
             color: white;
             padding: 20px;
@@ -72,6 +75,7 @@
 
             .box1 {
                 margin: 30px 0;
+
                 // background-color: red;
                 h1 {
                     font-family: Allura;
@@ -103,7 +107,7 @@
             .box3 {
                 margin: 40px 0;
 
-              
+
 
                 h3 {
                     margin-top: 2px;

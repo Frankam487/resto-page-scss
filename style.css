@@ -308,7 +308,6 @@ header .header-content img {
 }
 .section3 .section3-container .date-container {
   display: grid;
-  text-align: center;
   padding: 22px;
 }
 .section3 .section3-container .date-container form {
