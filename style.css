@@ -302,11 +302,11 @@ header .header-content img {
 }
 .section3 .section3-container {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 30% 70%;
   margin: 20px 50px;
+  background: #eee;
 }
 .section3 .section3-container .date-container {
-  background: #eee;
   display: grid;
   text-align: center;
   padding: 22px;
@@ -315,33 +315,31 @@ header .header-content img {
   display: grid;
   grid-template-areas: "select date time" "name phone email" "btn btn btn";
 }
-.section3 .section3-container .date-container form #name {
-  grid-area: name;
-}
-.section3 .section3-container .date-container form #date {
-  grid-area: date;
-}
-.section3 .section3-container .date-container form #hour {
-  grid-area: hour;
-}
-.section3 .section3-container .date-container form #number {
-  grid-area: number;
-}
-.section3 .section3-container .date-container form #email {
-  grid-area: email;
-}
-.section3 .section3-container .date-container form #select {
-  grid-area: select;
+.section3 .section3-container .date-container form button {
+  border-radius: 15px;
+  color: #eee;
+  border: none;
+  background: #21201e;
+  width: 50%;
 }
 .section3 .section3-container .date-container form .btn {
-  grid-area: btn;
+  width: 100%;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.section3 .section3-container .date-container form input,
+.section3 .section3-container .date-container form select {
+  margin: 10px;
+  border: none;
+  border-bottom: 0.5px solid rgb(182, 182, 182);
 }
 .section3 .section3-container .open-container {
-  background: black;
+  background: #000;
+  color: white;
   padding: 20px;
-}
-.section3 .section3-container .open-container .box1 {
-  background-color: red;
 }
 .section3 .section3-container .open-container .box1 h1 {
   font-family: Allura;
@@ -351,7 +349,7 @@ header .header-content img {
 .section3 .section3-container .open-container .box1 h2 {
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
   margin-top: -20px;
 }/*# sourceMappingURL=style.css.map */

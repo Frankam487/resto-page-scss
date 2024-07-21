@@ -3,11 +3,11 @@
 
     .section3-container {
         display: grid;
-        grid-template-columns: 35% 65%;
+        grid-template-columns: 30% 70%;
         margin: 20px 50px;
+        background: $white;
 
         .date-container {
-            background: $white;
             display: grid;
             text-align: center;
             padding: 22px;
@@ -18,45 +18,44 @@
                     "select date time"
                     "name phone email"
                     "btn btn btn"
-                ;
-                #name {
-                    grid-area: name;
+                    ;
+                    
+                    button {
+                    border-radius: 15px;
+                    color: $white;
+                    border: none;
+                    background: $black;
+                    width: 50%;
+                    // margin: 0 auto;
                 }
-    
-                #date {
-                    grid-area: date;
-                }
-    
-                #hour {
-                    grid-area: hour;
-                }
-    
-                #number {
-                    grid-area: number;
-                }
-    
-                #email {
-                    grid-area: email;
-                }
-    
-                #select {
-                    grid-area: select;
-                }
-    
+
                 .btn {
-                    grid-area: btn;
+                    width: 100%;
+                    background-color: red;
+                    align-items: center;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                input,
+                select {
+                    margin: 10px;
+                    border: none;
+                    border-bottom: .5px solid $grey;
                 }
             }
+            
 
-           
         }
 
         .open-container {
-            background: black;
+            background: #000;
+            color: white;
             padding: 20px;
 
             .box1 {
-                background-color: red;
+
 
                 h1 {
                     font-family: Allura;
@@ -67,7 +66,7 @@
                 h2 {
                     font-size: 2rem;
                     font-weight: bold;
-                    color: #fff;
+                    color: #ffffff;
                     text-transform: uppercase;
                     margin-top: -20px;
                 }
