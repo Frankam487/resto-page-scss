@@ -7,7 +7,30 @@
         margin: 20px 50px;
         background: $white;
 
+        .reservation {
+            @include childCenter;
+            flex-direction: column;
+
+            h2 {
+                color: $color1;
+                font-size: 1.8rem;
+                font-family: Allura;
+            }
+
+            h1 {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 2rem;
+            }
+        }
+
         .date-container {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 5%;
+            }
+
             display: grid;
             padding: 22px;
 
@@ -16,8 +39,37 @@
                 grid-template-areas:
                     "select date time"
                     "name phone email"
-                    "btn btn btn"
-                ;
+                    "vide btn vide";
+
+                select {
+                    grid-area: select;
+                }
+
+                .nom {
+                    grid-area: select;
+
+                }
+
+                .hour {
+                    grid-area: hour;
+
+                }
+
+                .email {
+                    grid-area: email;
+
+                }
+
+                .phone {
+                    grid-area: phone;
+
+                }
+
+                button {
+                    grid-area: btn;
+                    padding: 10px;
+                    margin-left: 250px;
+                }
 
                 button {
                     border-radius: 15px;
@@ -29,7 +81,6 @@
                 }
 
 
-                img {}
 
                 .btn {
                     margin: 0 auto;

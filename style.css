@@ -306,13 +306,54 @@ header .header-content img {
   margin: 20px 50px;
   background: #eee;
 }
+.section3 .section3-container .reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section3 .section3-container .reservation h2 {
+  color: rgb(166, 114, 69);
+  font-size: 1.8rem;
+  font-family: Allura;
+}
+.section3 .section3-container .reservation h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
 .section3 .section3-container .date-container {
   display: grid;
   padding: 22px;
 }
+.section3 .section3-container .date-container img {
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+}
 .section3 .section3-container .date-container form {
   display: grid;
-  grid-template-areas: "select date time" "name phone email" "btn btn btn";
+  grid-template-areas: "select date time" "name phone email" "vide btn vide";
+}
+.section3 .section3-container .date-container form select {
+  grid-area: select;
+}
+.section3 .section3-container .date-container form .nom {
+  grid-area: select;
+}
+.section3 .section3-container .date-container form .hour {
+  grid-area: hour;
+}
+.section3 .section3-container .date-container form .email {
+  grid-area: email;
+}
+.section3 .section3-container .date-container form .phone {
+  grid-area: phone;
+}
+.section3 .section3-container .date-container form button {
+  grid-area: btn;
+  padding: 10px;
+  margin-left: 250px;
 }
 .section3 .section3-container .date-container form button {
   border-radius: 15px;
