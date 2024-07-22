@@ -1,0 +1,29 @@
+.section4 {
+    background-color: $black;
+
+    .section4-container {
+        display: grid;
+        grid-template-areas:
+            "block1 block1 block3"
+            "block2 block2 block3"
+        ;
+        margin: 10px;
+
+        .block1, .block2{
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+        .block1 {
+            grid-area: block1;
+        }
+
+        .block2 {
+            grid-area: block2;
+        }
+
+        .block2 {
+            grid-area: block2;
+        }
+
+    }
+}

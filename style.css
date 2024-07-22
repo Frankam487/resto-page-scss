@@ -427,4 +427,26 @@ header .header-content img {
 }
 .section3 .section3-container .open-container .box4 {
   margin: 20px 0 50px 0;
+}
+
+.section4 {
+  background-color: #21201e;
+}
+.section4 .section4-container {
+  display: grid;
+  grid-template-areas: "block1 block1 block3" "block2 block2 block3";
+  margin: 10px;
+}
+.section4 .section4-container .block1, .section4 .section4-container .block2 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.section4 .section4-container .block1 {
+  grid-area: block1;
+}
+.section4 .section4-container .block2 {
+  grid-area: block2;
+}
+.section4 .section4-container .block2 {
+  grid-area: block2;
 }/*# sourceMappingURL=style.css.map */
